@@ -15,11 +15,11 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      chainId: 1337
+      chainId: 31337
     },
     goerli: {
-      url: "<YOUR_ALCHEMY_URL>",
-      accounts: [ "<YOUR_PRIVATE_KEY>" ]
+      url: "https://eth-goerli.g.alchemy.com/v2/MB3KJ5Hw7Ow4lOHm1dTRvKLg4zc1dTEd",
+      accounts: [ "144db193a0ee4d23100612299fdfc986f7ad5232792b973d510136e19083dfc1" ]
     }
   },
   solidity: {
